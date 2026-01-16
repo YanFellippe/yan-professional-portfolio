@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Yan Fellippe Gomes Basílio, Desenvolvedor Full Stack e estudante de Ciência da Computação.">
+    <meta name="author" content="Yan Fellippe Gomes Basílio">
+    <title>Yan Fellippe | Desenvolvedor Full Stack</title>
+
+    <!-- Fontes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Ícones: Devicon (Tech Stack) e FontAwesome (UI) -->
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Principal -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <a href="#home" class="logo">&lt;YanFGB/&gt;</a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" onclick="closeMenu()">Sobre</a>
+                <a href="#tech" onclick="closeMenu()">Skills</a>
+                <a href="#projects" onclick="closeMenu()">Projetos</a>
+                <a href="#experience" onclick="closeMenu()">Experiência</a>
+                <a href="#contact" onclick="closeMenu()">Contato</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button class="menu-btn" id="menu-btn" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container hero-content">
+            <p class="hero-subtitle">Olá, eu sou</p>
+            <h1 class="hero-title">Yan Fellippe Gomes Basílio</h1>
+            <h2 class="hero-role">Desenvolvedor Full Stack</h2>
+            <p class="hero-description">
+                Transformando ideias complexas em soluções digitais elegantes. Focado em performance, escalabilidade e na melhor experiência do usuário.
+            </p>
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Entrar em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mim Section -->
+    <section id="about" class="fade-in-section">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Sou estudante de <strong>Ciência da Computação</strong> com uma paixão insaciável por tecnologia. Com mais de 5 anos de estudos dedicados à programação, desenvolvi uma base sólida e uma facilidade natural para aprender novas tecnologias.
+                    </p>
+                    <p>
+                        Minha jornada vai além do código; tenho experiência prática na construção de aplicações web completas, APIs robustas, modelagem de bancos de dados e criação de MVPs. 
+                        Me considero um profissional <strong>criativo, organizado</strong> e focado em resolver problemas reais através de soluções eficientes.
+                    </p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3>+5</h3>
+                            <span>Anos de Estudo</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>CS</h3>
+                            <span>Computer Science Student</span>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Full</h3>
+                            <span>Stack Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech" class="fade-in-section">
+        <div class="container">
+            <h2>Tech Stack</h2>
+            
+            <!-- Programming Languages -->
+            <div class="tech-category">
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                <div class="tech-grid" id="tech-languages">
+                    <!-- Injected by JS -->
+                </div>
+            </div>
+
+            <!-- Frameworks & Libraries -->
+            <div class="tech-category">
+                <h3><i class="fas fa-layer-group"></i> Frameworks & Libraries</h3>
+                <div class="tech-grid" id="tech-frameworks"></div>
+            </div>
+
+            <!-- Databases -->
+            <div class="tech-category">
+                <h3><i class="fas fa-database"></i> Databases</h3>
+                <div class="tech-grid" id="tech-databases"></div>
+            </div>
+
+            <!-- Tools & DevOps -->
+            <div class="tech-category">
+                <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+                <div class="tech-grid" id="tech-tools"></div>
+            </div>
+
+            <!-- Others -->
+            <div class="tech-category">
+                <h3><i class="fas fa-plus-circle"></i> Others</h3>
+                <div class="tech-grid" id="tech-others"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projects" class="fade-in-section">
+        <div class="container">
+            <h2>Projetos</h2>
+            <div class="projects-grid" id="projects-container">
+                <!-- Inserido via JavaScript -->
+            </div>
+            <div id="pagination-container">
+                <!-- Paginação inserida via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiência Section -->
+    <section id="experience" class="fade-in-section">
+        <div class="container">
+            <h2>Experiência & Conhecimentos</h2>
+            <div class="experience-card">
+                <ul class="skill-list">
+                    <li><i class="fas fa-check-circle"></i> Desenvolvimento Full Stack</li>
+                    <li><i class="fas fa-check-circle"></i> Programação Orientada a Objetos (POO)</li>
+                    <li><i class="fas fa-check-circle"></i> Integração Front-end & Back-end</li>
+                    <li><i class="fas fa-check-circle"></i> Bancos de Dados Relacionais e NoSQL</li>
+                    <li><i class="fas fa-check-circle"></i> Metodologias Ágeis (Scrum / Kanban)</li>
+                    <li><i class="fas fa-check-circle"></i> Versionamento com Git e GitHub</li>
+                    <li><i class="fas fa-check-circle"></i> Desenvolvimento de APIs RESTful</li>
+                    <li><i class="fas fa-check-circle"></i> Arquitetura de Software Limpa</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contact" class="fade-in-section">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 style="margin-bottom: 1rem;">Vamos conversar?</h3>
+                    <p>Estou disponível para novas oportunidades, projetos freelancers ou apenas para trocar uma ideia sobre tecnologia.</p>
+                    
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:yanb.adm.desenv@gmail.com">yanb.adm.desenv@gmail.com</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/yan-fellippe-gomes-basilio-3229b81b9/" target="_blank" rel="noopener noreferrer">linkedin.com/in/yan-fellippe-gomes-basilio</a></p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/YanFellippe" target="_blank" rel="noopener noreferrer">github.com/YanFellippe</a></p>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-input" placeholder="Seu Nome" required>
+                        <span class="error-msg">Por favor, insira seu nome.</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-input" placeholder="Seu Email" required>
+                        <span class="error-msg">Insira um email válido.</span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-input" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        <span class="error-msg">A mensagem não pode estar vazia.</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/YanFellippe" class="social-icon" aria-label="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/yan-fellippe-gomes-basilio-3229b81b9/" class="social-icon" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/yanfellippegomes" class="social-icon" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; <span id="year"></span> Yan Fellippe Gomes Basílio. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Modules -->
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/render.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/animations.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

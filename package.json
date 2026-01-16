@@ -1,0 +1,14 @@
+{
+  "name": "portfolio-yan-basilio",
+  "version": "1.0.0",
+  "description": "Portfólio profissional de Yan Fellippe Gomes Basílio",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
