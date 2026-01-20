@@ -57,7 +57,7 @@ const projects = [
         name: "Marvel Game Layout",
         desc: "Layout de jogo de luta retrô inspirado nos personagens da Marvel com design nostálgico e interativo.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/marvel-game-layout.png",
         repoLink: "https://github.com/YanFellippe/marvel-game-layout",
         viewLink: "https://YanFellippe.github.io/marvel-game-layout"
     },
@@ -73,7 +73,7 @@ const projects = [
         name: "Pokemon Slider",
         desc: "Slider interativo de cartas Pokémon com animações suaves e design responsivo.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/pokemon-slider.png",
         repoLink: "https://github.com/YanFellippe/project-pokemon-slider",
         viewLink: "https://YanFellippe.github.io/project-pokemon-slider"
     },
@@ -81,7 +81,7 @@ const projects = [
         name: "Espace Cream",
         desc: "Landing page moderna e elegante para sorveteria com design desktop responsivo e atraente.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/espace-cream-desktop.png",
         repoLink: "https://github.com/YanFellippe/espace-cream-desktop",
         viewLink: "https://YanFellippe.github.io/espace-cream-desktop"
     },
@@ -89,7 +89,7 @@ const projects = [
         name: "Shop de Quebrada",
         desc: "Site para shopping de moda street com design urbano e identidade visual marcante.",
         techs: ["HTML5", "CSS3"],
-        img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/shop-de-quebrada.png",
         repoLink: "https://github.com/YanFellippe/shop-de-quebrada",
         viewLink: "https://YanFellippe.github.io/shop-de-quebrada"
     },
@@ -97,7 +97,7 @@ const projects = [
         name: "Web Food",
         desc: "Site completo para lanchonete com cardápio digital, pedidos online e interface intuitiva.",
         techs: ["HTML5", "CSS3"],
-        img: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/web-food.png",
         repoLink: "https://github.com/YanFellippe/web-food",
         viewLink: "https://YanFellippe.github.io/web-food"
     },
@@ -105,7 +105,7 @@ const projects = [
         name: "Simple Todo List",
         desc: "Aplicação web para lista simples de afazeres com backend em Python e interface responsiva.",
         techs: ["HTML5", "CSS3", "JavaScript", "Python"],
-        img: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/simple-todo-list.png",
         repoLink: "https://github.com/YanFellippe/simple-todo-list",
         viewLink: "https://YanFellippe.github.io/simple-todo-list"
     },
@@ -113,7 +113,7 @@ const projects = [
         name: "Simple Calculator",
         desc: "Calculadora padrão matemática com interface limpa e funcionalidades básicas de cálculo.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/simple-calculator.png",
         repoLink: "https://github.com/YanFellippe/simple-calculator",
         viewLink: "https://YanFellippe.github.io/simple-calculator"
     },
@@ -121,7 +121,7 @@ const projects = [
         name: "Java Supermarket System",
         desc: "Sistema completo de supermercado desenvolvido com Java e NetBeans para gerenciamento de vendas e estoque.",
         techs: ["Java"],
-        img: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=400",
+        img: "https://revistaft.com.br/wp-content/uploads/2023/11/image-871-1024x622.png",
         repoLink: "https://github.com/YanFellippe/java-supermarket-system",
         viewLink: "#"
     },
@@ -129,7 +129,7 @@ const projects = [
         name: "CRUD System",
         desc: "Sistema CRUD completo para gerenciamento de cadastros desenvolvido com Java e NetBeans.",
         techs: ["Java"],
-        img: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=400",
+        img: "https://raw.githubusercontent.com/Otavio15/Sistema_em_java_2017/master/s_funcionarios.png",
         repoLink: "https://github.com/YanFellippe/CRUD-SYSTEM",
         viewLink: "#"
     },
@@ -137,7 +137,7 @@ const projects = [
         name: "Bagunça Mobile",
         desc: "Versão mobile do site Bagunça transformada em aplicativo Android desenvolvido em Java.",
         techs: ["Java"],
-        img: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/bagunca-mobile.png",
         repoLink: "https://github.com/YanFellippe/BAGUNCA-MOBILE-VERSION",
         viewLink: "#"
     },
@@ -145,7 +145,7 @@ const projects = [
         name: "Simple Stock System",
         desc: "Sistema de estoque para empresa com interface web e integração com banco de dados PostgreSQL.",
         techs: ["HTML5", "CSS3", "JavaScript", "PostgreSQL"],
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/simple-stock-system.png",
         repoLink: "https://github.com/YanFellippe/simple-stock-system",
         viewLink: "https://YanFellippe.github.io/simple-stock-system"
     },
@@ -153,7 +153,7 @@ const projects = [
         name: "The Last of Us Interface",
         desc: "Interface de apresentação da série The Last of Us com design imersivo e elementos visuais impactantes.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1536431311719-398b6704d4cc?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/the-last-of-us-interface.png",
         repoLink: "https://github.com/YanFellippe/the-last-of-us-interface",
         viewLink: "https://YanFellippe.github.io/the-last-of-us-interface"
     },
@@ -161,7 +161,7 @@ const projects = [
         name: "Music Player",
         desc: "Player de música completo com controles de reprodução, playlist e design moderno.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/music-player.png",
         repoLink: "https://github.com/YanFellippe/music-player",
         viewLink: "https://YanFellippe.github.io/music-player"
     },
@@ -169,7 +169,7 @@ const projects = [
         name: "Clone Apple Watch",
         desc: "Página clone do produto Apple Watch com design fiel à marca e apresentação de recursos.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/clone-apple-watch.png",
         repoLink: "https://github.com/YanFellippe/clone-apple-watch",
         viewLink: "https://YanFellippe.github.io/clone-apple-watch"
     },
@@ -177,7 +177,7 @@ const projects = [
         name: "XGame Studio",
         desc: "Site voltado a falar sobre games com reviews, notícias e conteúdo gamer interativo.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/xgame-studio.png",
         repoLink: "https://github.com/YanFellippe/xgame-studio",
         viewLink: "https://YanFellippe.github.io/xgame-studio"
     },
@@ -185,7 +185,7 @@ const projects = [
         name: "2048 Game",
         desc: "Jogo 2048 clássico desenvolvido do zero com lógica de movimentação e sistema de pontuação.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/2048-game.png",
         repoLink: "https://github.com/YanFellippe/2048-GAME",
         viewLink: "https://YanFellippe.github.io/2048-GAME"
     },
@@ -193,7 +193,7 @@ const projects = [
         name: "Orkut Reimagined",
         desc: "Reimaginação de como o Orkut seria nos dias de hoje, desenvolvido com React e Node.js.",
         techs: ["React", "Node.js", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/orkut-reimagined.png",
         repoLink: "https://github.com/YanFellippe/orkut-reimagined",
         viewLink: "https://YanFellippe.github.io/orkut-reimagined"
     },
@@ -201,7 +201,7 @@ const projects = [
         name: "Healthy Routine",
         desc: "Sistema para gerenciamento de rotina saudável e prevenção de doenças com React e Node.js.",
         techs: ["HTML5", "CSS3", "JavaScript", "React", "Node.js"],
-        img: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/healthy-routine.png",
         repoLink: "https://github.com/YanFellippe/healthy-routine",
         viewLink: "https://YanFellippe.github.io/healthy-routine"
     },
@@ -209,7 +209,7 @@ const projects = [
         name: "Sistema de Consentimento LGPD",
         desc: "Sistema de gerenciamento de consentimento de acordo com a LGPD desenvolvido com Ruby on Rails.",
         techs: ["HTML5", "CSS3", "JavaScript", "Ruby on Rails"],
-        img: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/sistema-de-consentimento-lgpd.png",
         repoLink: "https://github.com/YanFellippe/sistema-de-consentimento-lgpd",
         viewLink: "https://YanFellippe.github.io/sistema-de-consentimento-lgpd"
     },
@@ -217,7 +217,7 @@ const projects = [
         name: "InHome Landing Page",
         desc: "Landing page profissional para a empresa InHome, prestadora de serviços, com design moderno e conversão otimizada.",
         techs: ["HTML5", "CSS3", "JavaScript"],
-        img: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&q=80&w=400",
+        img: "/assets/img/inhome-landing-page.png",
         repoLink: "https://github.com/YanFellippe/inhome-prestadora-de-servicos-landingpage",
         viewLink: "https://YanFellippe.github.io/inhome-prestadora-de-servicos-landingpage"
     }
